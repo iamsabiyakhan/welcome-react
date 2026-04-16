@@ -1,3 +1,46 @@
-#heading{
-    background-color: blue;
+*{
+    margin: 0;
+    padding: 0;
+}
+/* ============header============== */
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: aquamarine;
+    align-items: center;
+    padding: 4px;
+}
+.header img{
+    width: 80px;
+    height: 80px;
+}
+.items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-items{
+    width: 400px; 
+}
+
+/* =========restraunt cards ========== */
+
+.restroCard{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(222, 219, 219);
+}
+.body{
+    padding: 4px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+   
+}
+.restro-card-div{
+    display: flex;
+     flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 5px;
 }
